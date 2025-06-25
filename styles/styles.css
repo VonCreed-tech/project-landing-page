@@ -1,0 +1,93 @@
+/* -font used roboto
+-dark background color #1F2937 (HEADER AND FOOTER)
+-hero main text ("This website is awesome")
+48px #F9FAF8 weight:900
+-hero secondary text, header link text
+18px #E5E7EB
+-header logo text
+24px #F9FAF8
+-button color, call to action background color
+#3882F6
+-information header text 
+36px #1F2937 weight: 900
+-quote section background color 
+#E5E7EB
+-quote text
+36px light italic #1F2937 */
+
+body{
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif, Cambria;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    padding: 0px;
+}
+
+p{
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+}
+/* ------HEADER PART------ */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* arriba derecha abajo izquierda */
+    padding: 16px 400px 0px 400px;
+    align-items: center;
+    background-color: #1F2937 ;
+    
+}
+
+.links-left{
+    font-size: 24px;
+    color:  #F9FAF8;
+}
+
+.links-right{
+    color:  #F9FAF8;
+    gap: 10px;
+}
+
+.header-image{
+    width: 400px;
+    height: 200px;
+    flex-shrink: 2;
+}
+
+.header-awesome{
+    display: flex;
+    justify-content: space-between;
+    /* arriba derecha abajo izquierda */
+    padding: 16px 400px 0px 400px;
+    align-items: center;
+    background-color: #1F2937 ;
+    gap:30px
+}
+
+.text{
+    margin: 0;
+    padding: 0;
+    color: #F9FAF8;
+    row-gap: 2px;
+}
+
+#website-text{
+
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight:900;
+}
