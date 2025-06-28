@@ -31,6 +31,12 @@ ul{
     margin: 0;
 }
 
+a{
+    list-style: none;
+    color: #E5E7EB;
+    text-decoration: none;;
+}
+
 h1{
     margin: 0;
     padding: 0px;
@@ -96,7 +102,6 @@ p{
 }
 
 #sign-button1{
-    list-style: none;
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 10px;
@@ -200,7 +205,6 @@ p{
 }
 
 .button2{
-    list-style: none;
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 10px;
